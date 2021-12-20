@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <h1 class="title-text">v-scroll-loader</h1>
+    <h1 class="title-text">v-scroll-load</h1>
     <div class="images-container">
       <div class="images-item" v-for="(image,index) of images" :key="index">
         <div class="images-card">
@@ -10,7 +10,7 @@
       </div>
     </div>
 
-    <v-scroll-loader :loader-method="getImageList" :loader-disable="disable"></v-scroll-loader>
+    <v-scroll-load :loader-method="getImageList" :loader-disable="disable"></v-scroll-load>
   </div>
 </template>
 

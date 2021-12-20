@@ -1,4 +1,4 @@
-# v-scroll-loader
+# v-scroll-load
 
 A scroll loading component for VueJS.
 
@@ -7,36 +7,36 @@ A scroll loading component for VueJS.
 ### NPM
 
 ```shell
-npm install vue-scroll-loader
+npm install v-scroll-load
 ```
 
 ### CDN
 
 ```html
-<script src="https://unpkg.com/v-scroll-loader"></script>
+<script src="https://unpkg.com/v-scroll-load"></script>
 ```
 
 ## Usage
 
-Put  **`<scroll-loader/>`** below the list, and use **`loader-*`** props to define its options.
+Put  **`<v-scroll-load/>`** below the list, and use **`loader-*`** props to define its options.
 
-When the **scroll-loader** reaches the bottom of the viewport, the method specified by **loader-method** is executed.
+When the **v-scroll-load** reaches the bottom of the viewport, the method specified by **loader-method** is executed.
 
 ```html
-<scroll-loader :loader-method="getImageList" :loader-disable="disable">
-</scroll-loader>
+<v-scroll-load :loader-method="getImageList" :loader-disable="disable">
+</v-scroll-load>
 
 <!-- Replace the default loading animation with slot -->
-<scroll-loader :loader-method="getImageList" :loader-disable="disable">
+<v-scroll-load :loader-method="getImageList" :loader-disable="disable">
    <div>Loading...</div>
-</scroll-loader>
+</v-scroll-load>
 ```
 
 ```javascript
 import Vue from 'vue'
-import ScrollLoader from 'vue-scroll-loader'
+import VScrollLoad from 'v-scroll-load'
 
-Vue.use(ScrollLoader)
+Vue.use(VScrollLoad)
 
 new Vue({
     el: '#app',

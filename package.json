@@ -1,11 +1,11 @@
 {
-    "name": "v-scroll-loader",
+    "name": "v-scroll-load",
     "version": "1.0.0",
     "description": "A scroll loading component for VueJS.",
-    "main": "dist/v-scroll-loader.umd.min.js",
+    "main": "dist/v-scroll-load.umd.min.js",
     "scripts": {
         "serve": "vue-cli-service serve",
-        "build": "vue-cli-service build --target lib --name v-scroll-loader ./src/plugin-entry.js",
+        "build": "vue-cli-service build --target lib --name v-scroll-load ./src/plugin-entry.js",
         "lint": "vue-cli-service lint"
     },
     "dependencies": {

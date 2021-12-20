@@ -1,4 +1,4 @@
-import ScrollLoader from './components/VScrollLoader.vue'
+import ScrollLoader from './components/VScrollLoad.vue'
 
 const ScrollLoaderPlugin = {
   install (Vue) {
